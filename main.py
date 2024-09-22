@@ -2,7 +2,7 @@ import sys
 import os
 from rembg import remove
 from PIL import Image
-from pystyle import Colors, Colorate, Center, ascii, Write, Box
+from pystyle import Colors, Colorate, Center, Anime, Write, Box
 import io
 
 ascii = r"""
@@ -59,7 +59,7 @@ def remove_background(image_path):
         Write.Print(f"Une erreur est survenue : {e}\n", Colors.red, interval=0.05)
 
 if __name__ == "__main__":
-    ascii.Fade(Center.Center(ascii), Colors.blue_to_purple, Colorate.Vertical, enter=True)
+    Anime.Fade(Center.Center(ascii), Colors.blue_to_purple, Colorate.Vertical, enter=True)
     if len(sys.argv) > 1:
         image_path = sys.argv[1]
     else:
