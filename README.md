@@ -37,3 +37,6 @@ python main.py
 - Une fois sur sur l'interface vous aurez une poire en ascii appuyez sur "entrer" pour voir le menu s'ouvrir.
 - Glisser votre image dessus.
 - Attendez la fin de l'opération.
+
+### Tuto vidéo (cliquez pour accéder a youtube)
+[![Regarder la vidéo](https://img.youtube.com/vi/ZBJTuaRfkB8/maxresdefault.jpg)](https://youtu.be/ZBJTuaRfkB8)
